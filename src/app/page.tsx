@@ -36,7 +36,7 @@ export default function Home() {
       />
 
       <HeroSection
-        titulo="Bienvenido a OseanSmile"
+        titulo="Bienvenido a OceanSmile"
         subtitulo="Tu sonrisa, nuestra pasión. Atención dental de calidad en un ambiente amigable."
         ctaTexto="Contáctanos"
         ctaLink="https://wa.me/523331495831"
