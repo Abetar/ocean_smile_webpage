@@ -7,12 +7,14 @@ import { FaTooth, FaTeethOpen, FaSmileBeam } from "react-icons/fa";
 import ReviewsSection from "./components/ReviewSection";
 import UbicacionContactoSection from './components/UbicacionContactoSection'
 import DentalServicesSection from './components/DentalServicesCardsSection';
+import FaqSection from './components/FaqSection';
 
 export default function Home() {
   const navLinks = [
     { label: "Inicio", href: "/" },
     { label: "Servicios", href: "#servicios" },
     { label: "Reseñas", href: "#reseñas" },
+    { label: "Preguntas Frecuentes", href: "#faq" },
     { label: "Ubicación", href: "#ubicaciones" },
   ];
 
@@ -65,6 +67,8 @@ export default function Home() {
           },
         ]}
         />
+
+      <FaqSection />
 
       <UbicacionContactoSection />
 

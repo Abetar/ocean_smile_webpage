@@ -43,7 +43,7 @@ export default function Navbar({ links, ctaText, ctaHref }: NavbarProps) {
                         <Link
                             key={i}
                             href={link.href}
-                            className="text-gray-700 hover:text-blue-800 transition font-medium"
+                            className="text-gray-700 hover:text-blue-800 hover:bg-blue-100 transition font-medium hover: rounded px-2 py-1"
                         >
                             {link.label}
                         </Link>
